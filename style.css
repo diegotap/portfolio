@@ -25,17 +25,17 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ffbb42;
+    background-color: #d2daff;
 }
 
 /*----------NAVBAR----------*/
 .navbar {
     width: 100vw;
-    background-color: #164A41;
+    background-color: #9097fd;
     display: flex;
     justify-content: space-between;
     padding: 0em 0em 0.2em;
-    border-bottom: 0.3em solid #ffbb42;
+    border-bottom: 0.3em solid #e4e4e4;
     position: fixed;
 }
 
@@ -45,8 +45,8 @@ body::-webkit-scrollbar-thumb {
     padding: 0.06em 0.3em;
     margin: 0.3em 1.3em 0em;
     font-size: 0.6em;
-    background-color: #4D774E;
-    border: 0.3em solid #ffbb42;
+    background-color: #d2daff;
+    border: 0.3em solid #e4e4e4;
 }
 
 #menu {
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #menu a:hover {
-    background-color: #ffbb42;
+    background-color: #e4e4e4;
     color: #1b0d0c;
 }
 
@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.5em;
     margin: 0.3em 1em 0em;
     margin-right: 1em;
-    color: #ffbb42;
+    color: #e4e4e4;
     cursor: pointer;
     display: none;
 }
@@ -100,12 +100,12 @@ ul.show {
     padding: 4.6em 2em 2em;
     display: grid;
     align-items: center;
-    background-color: #4D774E;
+    background-color: #cac7ce;
 }
 
 .main img {
     max-width: 11.9em;
-    border: 0.3em solid #ffbb42;
+    border: 0.3em solid #e4e4e4;
     margin: 0em 5vw;
     grid-column: 2;
 }
@@ -129,7 +129,7 @@ ul.show {
 }
 
 span {
-    color: #ffbb42;
+    color: #9097fd;
 }
 /*----------HOME----------*/
 
@@ -141,19 +141,19 @@ span {
     background-color: #FFFFFF;
     border: none;
     cursor: pointer;
-    box-shadow: #ffbb42;
+    box-shadow: #9097fd;
     transition: ease-in .3s;
 }
 
 .buttons:hover {
-    background-color: #ffbb42;
+    background-color: #9097fd;
     color: #1b0d0c;
 }
 
 .divider {
     height: 0.13em;
     width: 4.6em;
-    background-color: #ffbb42;
+    background-color: #e4e4e4;
     margin-bottom: 0.5em;
 }
 
@@ -199,7 +199,7 @@ span {
     max-width: 18em;
     max-height:90%;
     grid-column: 1/2;
-    border: 0.3em solid #ffbb42;
+    border: 0.3em solid #9097fd;
 }
 
 .about-info {
@@ -210,7 +210,7 @@ span {
 
 .about-info h2 {
     font-size: 2em;
-    color:#ffbb42;
+    color:#9097fd;
     text-shadow: 0.07em 0.07em #164A41;
 }
 
@@ -225,13 +225,13 @@ span {
 .portfolio {
     width: 100vw;
     font-size: 1em;
-    background-color: #4D774E;
+    background-color: #d2daff;
     padding: 2em;
 }
 
 .portfolio-headings h2{
     font-size: 2em;
-    color: #ffbb42;
+    color: #9097fd;
     text-shadow: 0.07em 0.07em #1b0d0c;
 }
 
@@ -264,7 +264,7 @@ span {
     height: 8.3em;
     background-image: url(../img/Foto.jpg);
     background-size: 100%;
-    border: 0.3em solid #ffbb42;
+    border: 0.3em solid #9097fd;
 }
 
 .card-title {
@@ -294,14 +294,14 @@ span {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1.5em;
-    text-shadow: 0.07em 0.07em #164A41;
+    text-shadow: 0.07em 0.07em #9097fd;
     border-radius: 100%;
     transition: ease-in .3s;
 }
 
 .card-projects-link a:hover {
-    text-shadow: 0.07em 0.07em #164A41;
-    background-color: #164A41;
+    text-shadow: 0.07em 0.07em #9097fd;
+    background-color: #9097fd;
 }
 /*----------PORTFOLIO----------*/
 
@@ -310,16 +310,16 @@ span {
 .contact-section {
     width: 100vw;
     box-sizing: border-box;
-    background: linear-gradient(#1b0d0c 15%, #ffbb42 290%);
+    background: linear-gradient(#1b0d0c 15%, #9097fd 290%);
     padding: 2em 0em;
     border-top: 0.3em solid #ffbb42;
-    border-bottom: 0.3em solid #ffbb42;
+    border-bottom: 0.3em solid #e4e4e4;
 }
 
 .contact-section h2 {
     font-size: 2em;
     text-shadow: 0.07em 0.07em #164A41;
-    color: #ffbb42;
+    color: #9097fd;
     text-align: center;
     margin: auto;
     padding-bottom: 1em;
@@ -339,20 +339,20 @@ span {
 
 .form input {
     margin-bottom: 0.8em;
-    background:#4D774E;
+    background:#e4e4e4;
     color: #ffbb42;
     font-size: 1em;
-    border: 0.3em solid #ffbb42;
+    border: 0.3em solid #9097fd;
     text-align: center;
 }
 
 .form textarea {
     height: 8em;
-    background-color: #4D774E;
+    background-color: #e4e4e4;
     color: #ffbb42;
     border: none;
     font-size: 1em;
-    border: 0.3em solid #ffbb42;
+    border: 0.3em solid #9097fd;
     text-align: center;
     resize: none;
 }
@@ -372,7 +372,7 @@ span {
 }
 
 .btn-submit:hover {
-    background-color: #ffbb42;
+    background-color: #9097fd;
     color: #1b0d0c;
 }
 /*----------CONCTACT----------*/
@@ -384,7 +384,7 @@ span {
     display:grid;
     width: 100vw;
     box-sizing: border-box;
-    background-color: #164A41;
+    background-color: #cac7ce;
     max-width: 100vw;
     position: absolute;
 }
@@ -397,7 +397,7 @@ span {
     font-size: 1em;
     padding: 0.4em 0.7em 0em 0.4em;
     margin-left: 0.3%;
-    color: #ffbb42;
+    color: #9097fd;
     text-shadow: 0.07em 0.07em #1b0d0c;
 }
 
@@ -421,12 +421,12 @@ span {
 .social-networks i {
     padding: 0.16em 0.4em;
     color: #FFFFFF;
-    text-shadow: 0.07em 0.07em #4D774E;
+    text-shadow: 0.07em 0.07em #9097fd;
     transition: ease-in .3s;
 }
 
 .social-networks i:hover {
-    background-color: #ffbb42;
+    background-color: #9097fd;
     color: #1b0d0c;
     cursor: pointer;
 }
