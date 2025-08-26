@@ -100,7 +100,7 @@ ul.show {
     padding: 4.6em 2em 2em;
     display: grid;
     align-items: center;
-    background-color: #cac7ce;
+    background-color: #d2daff;
 }
 
 .main img {
@@ -340,7 +340,7 @@ span {
 .form input {
     margin-bottom: 0.8em;
     background:#e4e4e4;
-    color: #ffbb42;
+    color: #9097fd;
     font-size: 1em;
     border: 0.3em solid #9097fd;
     text-align: center;
@@ -349,7 +349,7 @@ span {
 .form textarea {
     height: 8em;
     background-color: #e4e4e4;
-    color: #ffbb42;
+    color: #9097fd;
     border: none;
     font-size: 1em;
     border: 0.3em solid #9097fd;
